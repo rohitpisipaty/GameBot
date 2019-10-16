@@ -1,0 +1,4 @@
+﻿  TTT.cpp
+c:\users\rohit\desktop\assignttt(1)\assignttt\supportcode\src\programs\ttt.cpp(286): warning C4101: 'best_value': unreferenced local variable
+c:\users\rohit\desktop\assignttt(1)\assignttt\supportcode\src\programs\ttt.cpp(336): warning C4715: 'TTT::NegaMax': not all control paths return a value
+  TTT.vcxproj -> C:\Users\rohit\Desktop\AssignTTT(1)\AssignTTT\SupportCode\bin\Debug\TTT.exe
