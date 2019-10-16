@@ -1,0 +1,4 @@
+Compiling Instructions:
+Open the Assign TTT>Support code, then press on TTT.sln(solution)
+Open cmd, set the path as AssignTTT>Support Code>bin>Debug.
+Run using command TTT nr_rows nr_cols nr_toWin depth. 
