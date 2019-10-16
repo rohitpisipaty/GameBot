@@ -6,3 +6,9 @@
 # The name of the executable is TTT. The program can be run with  ./bin/TTT nrRows nrCols nrToWin depth from Linux/Mac and bin\Release\TTT nrRows nrCols nrToWin depth from Windows, where nrRows is an integer corresponding to the number of rows, nrCols corresponds to the number of columns, nrToWin corresponds to the number of consecutive elements needed for a win, and depth is an integer corresponding to the maximum depth search for the minimax search (with alpha-beta pruning). 
 # From the graphical interface, you can use the mouse to click at a position where you would like to place the piece. Pressing the letter s on keyboard invokes the BestMove function, which uses the minimax search (with alpha-beta pruning and your evaluation function) to print out the best move for the current player. For example, starting the game with TTT 3 3 3 100 and pressing s would generate the following: bestScore = -0.000000 bestMove = 0 0 [player = BLUE] [nrMoves = 0] indicating that the best move for the first player (corresponding to BLUE squares) is in position (0, 0). You can then click on position (0, 0), and a BLUE square will be placed there. Pressing s again would generate bestScore = 0.000000 bestMove = 1 1 [player = RED] [nrMoves = 1] indicating that the best move for the second player (corresponding to RED squares) is in position (1, 1). Note that any other move would cause a loss for the second player.
 # Play on larger boards with different values for nrToWin. The program should be able to beat you most of the time. If you are not very good with Tic-tac-toe, then try to find a friend who is good and see if your program can beat your friend. It should.
+# 
+# 
+# Compiling Instructions
+# Open the Assign TTT>Support code, then press on TTT.sln(solution)
+# Open cmd, set the path as AssignTTT>Support Code>bin>Debug.
+# Run using command TTT nr_rows nr_cols nr_toWin depth.
